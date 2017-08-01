@@ -720,3 +720,13 @@ object {
 
 .gallery-caption {
   display: block; }
+
+.mainHeader {
+  background: #3376EB;
+  height: 123px;
+  margin-top: 0; }
+  .mainHeader h1 {
+    margin-top: 0; }
+
+.yeah-logo {
+  margin-left: 30px; }
