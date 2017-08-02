@@ -63,6 +63,39 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/images\/home_academy.png": {
+		"ft": 32768,
+		"iS": 18122,
+		"oA": 0,
+		"oAP": "\/assets\/images\/home_academy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/home_buildinga.png": {
+		"ft": 32768,
+		"iS": 18251,
+		"oA": 0,
+		"oAP": "\/assets\/images\/home_buildinga.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/home_yeah.png": {
+		"ft": 32768,
+		"iS": 19347,
+		"oA": 0,
+		"oAP": "\/assets\/images\/home_yeah.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/logoWhite.png": {
 		"ft": 32768,
 		"iS": 6605,
