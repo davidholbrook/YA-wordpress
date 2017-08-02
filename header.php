@@ -16,7 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
@@ -26,7 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'yeah-academy' ); ?></a>
 
 	<header class="mainHeader">
-				<h1 class="yeah-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri() ?>/assets/images/YEAHLogo.png" alt="YEAH Logo"/></a></h1>
+				<h1 class="yeah-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri() ?>/assets/images/YEAHLogo.png" alt="YEAH Logo"/><span>YEAH Academy</span></a></h1>
 		</div>
 
 		<nav id="site-navigation" class="main-navigation">
