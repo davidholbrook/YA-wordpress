@@ -19,6 +19,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 */
 @import 'norm';
 
+body{
+  font-family: 'Droid Serif',Georgia,Times,"Times New Roman",serif;
+  font-size: 100%;
+  line-height: 1.7em;
+}
+
 h2,h3,h4,h5,h6,.h2,.h3,.h4,.h5,.h6{
   font-family: Lato,Geneva,Tahoma,Verdana,sans-serif;
 }
