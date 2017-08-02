@@ -758,27 +758,62 @@ body {
 
 .mainHeader {
   background: #3376EB;
-  height: 123px;
-  margin-top: 0; }
+  height: 117px;
+  position: relative;
+  top: 0;
+  z-index: 2;
+  border-bottom: 2px solid #ffffff; }
   .mainHeader h1 {
     margin-top: 0; }
 
 .yeah-logo {
-  margin-left: 30px; }
-
-.homepage__text {
-  text-align: center; }
+  margin-left: 30px;
+  position: relative;
+  z-index: 2; }
 
 .site-wrapper {
   max-width: 1000px;
   margin-left: 230px; }
 
+.homepage__text {
+  text-align: center; }
+
+.primary_btn {
+  font-family: Lato,Geneva,Tahoma,Verdana,sans-serif;
+  font-weight: 700; }
+
+.homepage__text {
+  height: 250px; }
+  @media (max-width: 300px) {
+    .homepage__text {
+      height: inherit; } }
+
+#metaslider_36 {
+  margin-top: -48px; }
+
+.nivo-caption {
+  background: none !important;
+  left: 0px !important;
+  bottom: 70px !important;
+  text-align: center; }
+  .nivo-caption h2 {
+    color: #ffffff; }
+  .nivo-caption p {
+    font-family: Lato,Geneva,Tahoma,Verdana,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF; }
+
 .site-footer {
   background-color: #357fff;
   background-image: linear-gradient(19deg, #357fff 20%, #9881b0 70%);
-  font-family: Lato-Bold;
-  font-size: 12px;
+  font-family: Lato,Geneva,Tahoma,Verdana,sans-serif;
+  font-weight: 700;
+  font-size: .9rem;
   color: #FFFFFF;
   height: 100px;
   position: relative;
   bottom: 0; }
+
+.site-footer a {
+  color: #ffffff; }
