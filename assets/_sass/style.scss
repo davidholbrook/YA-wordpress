@@ -19,32 +19,35 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 */
 @import 'norm';
 
+h2,h3,h4,h5,h6,.h2,.h3,.h4,.h5,.h6{
+  font-family: Lato,Geneva,Tahoma,Verdana,sans-serif;
+}
+
 h2,.h2{
-  font-family: Lato-Bold;
+  font-weight: 700;
   font-size: 40px;
   color: #DF6700;
 }
 
 h3,.h3{
-  font-family: Lato-Light;
+  font-weight: 300;
   font-size: 35px;
   color: #DF6700;
 }
 
 h4,.h4{
-  font-family: Lato-Bold;
+  font-weight: 700;
   font-size: 30px;
   color: #DF6700;
 }
 
 h5,.h5{
-  font-family: Lato-Regular;
+  font-weight: 400;
   font-size: 25px;
   color: #DF6700;
 }
 
 h6,.h6{
-  font-family: Lato-Bold;
   font-size: 20px;
   color: #DF6700;
 }
@@ -65,6 +68,17 @@ body{
 .yeah-logo{
   margin-left: 30px;
 }
+
+.homepage__text{
+  text-align: center
+}
+
+.site-wrapper{
+  max-width: 1000px;
+  margin-left: 230px;
+}
+
+
 
 .site-footer{
   background-color: #357fff;
