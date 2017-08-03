@@ -29,16 +29,28 @@
 				<h1 class="yeah-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri() ?>/assets/images/YEAHLogo.png" alt="YEAH Logo"/><span>YEAH Academy</span></a></h1>
 		</div>
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-			<?php esc_html_e( 'Primary Menu', 'yeah-academy' ); ?></button>
+		<nav id="site-navigation" class="primaryNav">
 			<?php
 				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
+					'theme_location' => 'primaryNav',
 				) );
 			?>
 		</nav>
+		<nav id="site-navigation" class="secondaryNav">
+			<?php
+				wp_nav_menu( array(
+					'theme_location' => 'secondaryNav'
+				) );
+			?>
+		</nav>
+		<div class="donate">
+			<?php
+				wp_nav_menu( array(
+					'theme_location' => 'donate'
+				) );
+			?>
+		</div>
+
 	</header>
 
 	<div class="site-wrapper">

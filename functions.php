@@ -43,8 +43,11 @@ if ( ! function_exists( 'yeah_academy_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'yeah-academy' ),
+			'primaryNav' => esc_html__( 'primaryNav', 'yeah-academy' ),
+			'secondaryNav' => esc_html__( 'secondaryNav', 'yeah-academy' ),
+			'donate' => esc_html__( 'donate', 'yeah-academy' )
 		) );
+
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -134,3 +137,5 @@ function my_custom_login() {
 echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/assets/custom-login-styles.css" />';
 }
 add_action('login_head', 'my_custom_login');
+
+wp_enqueue_script( 'wpb_togglemenu', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20160909', true );

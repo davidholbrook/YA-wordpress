@@ -789,10 +789,73 @@ body {
 @media (max-width: 1000px) {
   .yeah-logo span {
     color: #ffffff;
+    font-size: 25px;
     display: block;
-    margin-left: 30px;
+    margin-left: 10px;
     position: relative;
-    top: 25px; } }
+    top: 30px; } }
+
+.primaryNav {
+  position: absolute;
+  top: 2px;
+  right: 110px; }
+  .primaryNav li {
+    font-family: Lato,Geneva,Tahoma,Verdana,sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #FFFFFF;
+    float: left;
+    list-style: none;
+    margin: 0 15px; }
+    .primaryNav li a {
+      color: #ffffff;
+      text-decoration: none;
+      text-transform: uppercase; }
+
+.secondaryNav {
+  position: absolute;
+  top: 45px;
+  right: 111px; }
+  .secondaryNav li {
+    font-family: Lato,Geneva,Tahoma,Verdana,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    float: left;
+    list-style: none;
+    margin: 0 15px; }
+    .secondaryNav li a {
+      color: #ffffff;
+      text-decoration: none; }
+
+.donate {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  background: #DF6700;
+  border: 2px solid #FFFFFF;
+  width: 107px;
+  height: 119px; }
+  .donate li {
+    font-family: Lato,Geneva,Tahoma,Verdana,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    float: left;
+    list-style: none;
+    margin-left: -67px; }
+  .donate a {
+    color: #fff;
+    text-decoration: none; }
+    .donate a:before {
+      content: '';
+      background: url("assets/images/donate.svg") no-repeat;
+      display: block;
+      width: 30px;
+      height: 30px;
+      margin-top: 3px;
+      margin-left: 20px;
+      margin-bottom: 13px; }
 
 .site-wrapper {
   max-width: 1000px;
@@ -846,3 +909,17 @@ body {
 
 .site-footer a {
   color: #ffffff; }
+
+.mobile-nav {
+  display: none; }
+
+.menu-toggle {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  display: inline-block; }
+  .menu-toggle img {
+    height: 40px;
+    width: 40px; }
