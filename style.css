@@ -844,7 +844,7 @@ body {
     color: #FFFFFF;
     float: left;
     list-style: none;
-    margin-left: -67px; }
+    margin-left: -76px !important; }
   .donate a {
     color: #fff;
     text-decoration: none; }
@@ -855,8 +855,8 @@ body {
       width: 30px;
       height: 30px;
       margin-top: 3px;
-      margin-left: 20px;
-      margin-bottom: 13px; }
+      margin-left: 30px;
+      margin-bottom: 12px; }
 
 .site-wrapper {
   max-width: 1000px;
@@ -917,16 +917,32 @@ body {
 .site-footer a {
   color: #ffffff; }
 
-.mobile-nav {
-  display: none; }
+.nav-tabs {
+  font-family: Lato,Geneva,Tahoma,Verdana,sans-serif;
+  border-bottom: 3px solid #7300EB !important;
+  border-top: 3px solid #7300EB !important;
+  margin-left: -15px;
+  padding: 10px 0;
+  margin-bottom: 30px !important; }
+  .nav-tabs a {
+    color: #7300EB;
+    text-decoration: none;
+    text-transform: uppercase; }
 
-.menu-toggle {
-  background: none;
-  border: none;
-  position: absolute;
-  right: 10px;
-  top: 15px;
-  display: inline-block; }
-  .menu-toggle img {
-    height: 40px;
-    width: 40px; }
+.nav-tabs ul.nav-tabs {
+  border-bottom: 3px solid #E16700 !important;
+  border-top: 3px solid #E16700 !important; }
+  .nav-tabs ul.nav-tabs a {
+    color: #E16700; }
+
+.nav-link, .nav-item {
+  transition: all 0.5s ease-in-out; }
+
+.nav-tabs .nav-link:hover {
+  border-color: #ffffff !important; }
+
+.nav-tabs .nav-link.active {
+  color: #fff !important;
+  text-decoration: none;
+  background-color: #7300EB !important;
+  border-radius: 8px; }

@@ -27,8 +27,6 @@
 
 	<header class="mainHeader">
 				<h1 class="yeah-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri() ?>/assets/images/YEAHLogo.png" alt="YEAH Logo"/><span>YEAH Academy</span></a></h1>
-		</div>
-
 		<nav id="site-navigation" class="primaryNav">
 			<?php
 				wp_nav_menu( array(
@@ -50,6 +48,7 @@
 				) );
 			?>
 		</div>
+	</div>
 
 	</header>
 
