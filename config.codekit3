@@ -73,6 +73,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/facebook_icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/facebook_icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/home_academy.png": {
 		"ft": 32768,
 		"iS": 18122,
@@ -127,6 +137,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/twitter-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/twitter-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/YEAHLogo.png": {
 		"ft": 32768,
 		"iS": 10382,
@@ -137,6 +157,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/assets\/images\/youtube_icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/youtube_icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/comments.php": {
 		"ft": 8192,

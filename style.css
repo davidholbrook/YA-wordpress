@@ -770,7 +770,8 @@ body {
     text-transform: uppercase; }
   @media (max-width: 1000px) {
     .mainHeader {
-      height: 90px; } }
+      height: 90px;
+      position: static; } }
 
 @media (min-width: 1000px) {
   .yeah-logo img {
@@ -878,16 +879,19 @@ body {
       height: inherit; } }
 
 #metaslider_36 {
-  margin-top: -48px; }
+  margin-top: -24px;
+  width: 100% !important; }
+  @media (max-width: 1000px) {
+    #metaslider_36 {
+      height: 250px !important; }
+      #metaslider_36 img {
+        height: 250px !important; } }
 
 .nivo-caption {
   background: none !important;
   left: 0px !important;
-  bottom: 70px !important;
+  bottom: 40% !important;
   text-align: center; }
-  @media (max-width: 1000px) {
-    .nivo-caption {
-      bottom: 10px !important; } }
   .nivo-caption h2 {
     color: #ffffff; }
   .nivo-caption p {
@@ -895,6 +899,9 @@ body {
     font-weight: 700;
     font-size: 25px;
     color: #FFFFFF; }
+  @media (max-width: 1000px) {
+    .nivo-caption {
+      bottom: 25% !important; } }
 
 .site-footer {
   background-color: #357fff;
