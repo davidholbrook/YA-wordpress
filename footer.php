@@ -10,7 +10,7 @@
  */
 
 ?>
-
+	<div class="push"></div>
 	</div><!-- #content -->
 
 	<footer class="site-footer">
